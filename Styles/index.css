@@ -1,0 +1,112 @@
+body{
+    display: block;
+    position: relative;
+}
+
+p{
+    margin: 0px;
+}
+
+nav{
+    width: 1400px;
+    height: 78px;
+    top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.Image-logo{
+    height: 32px;
+    width: 31,17px;
+    left: 10.28%;
+    right: 87.49%;
+    top: 28.21%;
+    bottom: 30.77%;
+}
+
+ul{ 
+    padding-right: 40px;
+}
+
+li{
+    display: inline;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #2F281E;
+}
+
+button{
+    text-align: center;
+}
+
+.Sign-in{
+    Width: 110px;
+    Height:46px;
+    margin: 7px;
+    background-color: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #173A56;
+}
+
+
+.Sign-up{
+    Width: 110px;
+    Height:46px;
+    margin: 7px;
+    border: 1px solid; 
+    background-color:#FF9900;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    
+}
+
+h1
+{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+}
+
+.image_happy_people{
+    width: 605px;
+    height: 496px;
+    left: 666px;
+    top: 128px;
+
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row-reverse;
+}
