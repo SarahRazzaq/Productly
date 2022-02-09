@@ -13,22 +13,20 @@ p{
 nav{
     width: 1400px;
     height: 78px;
+    left: 0px;
     top: 20px;
     display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
+    justify-content: space-around;
+}
+.logo{
+    float: left;
 }
 
 .Image-logo{
-    height: 32px;
-    width: 31,17px;
-    left: 10.28%;
-    right: 87.49%;
-    top: 28.21%;
-    bottom: 30.77%;
+    transform: scale(-1);
 }
 
-ul{ 
+.ul-nav{ 
     padding-right: 40px;
 }
 
@@ -306,5 +304,25 @@ h5{
 }
 
 footer{
-    
+    width: 1360px;
+    height: 308px;
+    left: 160px;
+    top: 3452px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-line{
+    margin: 20px;
+    display: inline-block;
+    width: 1109px;
+    height: 1px;
+    left: 680;
+    top: 3452px;
+    background: rgba(188, 208, 229, 0.496913); 
+}
+
+.ul-footer{
+    display: flex;
+    flex-direction: column;
 }
